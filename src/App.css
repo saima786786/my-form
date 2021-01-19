@@ -1,0 +1,73 @@
+.App{
+  height: 100vh;
+  background-color: #fff;
+ margin: 0 auto;
+ padding: 30px;
+ width: 50%;
+ padding-left: 100px;
+ font-size: 12px;
+}
+.span{
+  font-weight: bold;
+  font-size: 12px;
+}
+.input-container{
+  display: flex;
+  margin: 40px 0;
+}
+label{
+  font-weight: bold;
+}
+input, select{
+  padding: 5px;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.labels{
+  width: 200px;
+  font-size: 16px;
+}
+.labels-week{
+  margin: 0 20px;
+  font-size: 16px;
+}
+.labels-radio{
+  width: auto;
+}
+.select-week{
+  border: 1px solid black;
+  width: 90%;
+  font-weight: bold;
+}
+.day-week{
+  margin: 20px 0;
+  width: 90%;
+  font-weight: bold;
+}
+.btn{
+  float: right;
+  border-radius: 30px;
+  background-color: #0e5ec6;
+  color: white;
+  border-style: none ;
+  width: 15%;
+  height: 40px;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+.week-container{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.week-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.radio{
+  margin: 10px 0;
+  width: 20px;
+}
